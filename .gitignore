@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Data artifacts
+data/faiss_index_multimodal.index
+data/*.csv
+data/images/
+data/*.json
+
+# Model artifacts
+*.onnx
+*.engine
+*.plan
+
+# Model directories
+model_repository/*/1/model.plan
+model_repository/*/1/*.engine
+
+# Logs
+*.log
+logs/
+*.tmp
+
+# Test and coverage
+htmlcov/
+.pytest_cache/
+.coverage
+.tox/
+tmp_test.index
+
+# Streamlit
+.streamlit/
+
+# Jupyter
+.ipynb_checkpoints
+
+# VS Code and IDE config
+.vscode/
+.idea/
+
+# Docker
+*.tar
+*.bak
+docker-compose.override.yml
+
+# System files
+.DS_Store
+Thumbs.db

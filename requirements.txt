@@ -1,0 +1,14 @@
+streamlit
+transformers
+sentence-transformers
+pymongo
+pydantic
+pillow
+faiss-cpu
+torch
+torchvision
+tritonclient[grpc]
+numpy
+pandas
+requests
+pytest
