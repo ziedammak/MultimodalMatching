@@ -38,4 +38,4 @@ fi
 
 # Launch Streamlit
 echo "[RESTART] Launching Streamlit app..."
-streamlit run streamlit_app.py --server.port 8503 --server.enableCORS false &
+streamlit run streamlit_app.py --server.port 8501 --server.enableCORS false &
